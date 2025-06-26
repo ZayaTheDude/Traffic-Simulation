@@ -1,14 +1,24 @@
-# Traffic Simulation Project
+# Traffic Simulation (Pygame)
 
-## Overview
-This project simulates traffic flow on a grid with cars and intersections. It includes a Flask API and is deployed to AWS ECS using Terraform.
+This is a minimal Pygame simulation scaffold. You can add your simulation logic in `main.py`.
 
 ## Setup
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the simulation locally: `python run_simulation.py`
-3. Deploy to AWS using Terraform.
 
-## Features
-- Traffic simulation engine
-- Flask API for interaction
-- AWS ECS deployment
+1. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+2. Run the simulation:
+   ```sh
+   python main.py
+   ```
+
+## Deployment
+
+This project is structured to be easily deployed to a cloud environment that supports Python and Pygame.
+
+---
+
+- `main.py`: Entry point for the simulation (currently opens a blank Pygame window).
+- `requirements.txt`: Python dependencies.
